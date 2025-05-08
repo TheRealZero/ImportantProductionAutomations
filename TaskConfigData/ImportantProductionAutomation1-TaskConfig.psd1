@@ -22,7 +22,7 @@
     Description = 'This will run VERY important production automations'
     TaskAction  = @{
         Execute                         = 'powershell.exe' 
-        Argument                        = "-WindowStyle Hidden -File 'C:\git\ImportantProductionAutomations\ImportantProductionAutomation1.ps1'  "
+        Argument                        = '-WindowStyle Hidden -File "C:\git\ImportantProductionAutomations\ImportantProductionAutomation1.ps1"'
         
         #WorkingDirectory                = 'D:\'
     }
